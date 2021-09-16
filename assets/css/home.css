@@ -79,7 +79,7 @@ header {
 }
 #main-navigation {
   box-sizing: border-box;
-  background-image: url("img/gPeonv.jpg");
+  background-image: url("images/gPeonv.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -141,7 +141,7 @@ header {
     background-position: left center;
     text-align: center;
     background-size: cover ;
-    background-image: linear-gradient(rgba(0, 0,0,0.5),rgba(0, 0,0,0.5)),url(images/blog_15-770x545.jpg);
+    background-image: linear-gradient(rgba(0, 0,0,0.5),rgba(0, 0,0,0.5)),url('images/blog_15-770x545.jpg');
 }
 .heading-hero
 {

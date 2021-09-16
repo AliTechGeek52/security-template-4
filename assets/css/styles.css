@@ -80,7 +80,7 @@ body{
 /*main navigation section*/
 #main-navigation {
   box-sizing: border-box;
-  background-image: url("img/gPeonv.jpg");
+  background-image: url("images/gPeonv.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
