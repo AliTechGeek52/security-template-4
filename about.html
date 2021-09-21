@@ -12,58 +12,86 @@
 <body>
   <main>
     <header>
-            <section class="header-section container">
-                <ul id="header-contact">
-                <li class="contact-links">
-                    <div>
-                        <i class="fas fa-phone-alt"></i>
-                    </div>
-                    <div>+10800-33-000</div>
-                </li>
-                <li class="contact-links">
-                    <div>
-                        <i class="fab fa-skype"></i>
-                    </div>
-                    <div>security</div>
-                </li>
-                <li class="contact-links">
-                    <div>
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div>21 Newstreet, New York, 269-24</div>
-                </li>
-            </ul>
-            <ul id="header-login">
-                <li class="login-links">
-                    <div>
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <div id="cart-items">0</div>
-                </li>
-                <li class="login-links" id="search-bar-wrap">
-                    <i class="fas fa-search"></i>
-                    <input type="text" name="search-bar" placeholder="Search" class="search-bar-header">
-                </li>
-            </ul>
-            </section>
-        </header>
+        <section class="header-section container">
+          <ul id="header-contact">
+            <li class="contact-links">
+              <div>
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div>+10800-33-000</div>
+            </li>
+            <li class="contact-links">
+              <div>
+                <i class="fab fa-skype"></i>
+              </div>
+              <div>security</div>
+            </li>
+            <li class="contact-links">
+              <div>
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>21 Newstreet, New York, 269-24</div>
+            </li>
+          </ul>
+          <ul id="header-login">
+            <li class="login-links">
+              <div>
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <div id="cart-items">0</div>
+            </li>
+            <li class="login-links" id="search-bar-wrap">
+              <i class="fas fa-search"></i>
+              <input
+                type="text"
+                name="search-bar"
+                placeholder="Search"
+                class="search-bar-header"
+              />
+            </li>
+          </ul>
+        </section>
+      </header>
     <div id="main-navigation">
       <div id="nav-wrapper">
         <div id="main-nav" class="container">
-          <img src="img/thefnflogo.png" id="nav-logo" />
+          <img src="images/thefnflogo.png" id="nav-logo" />
           <nav>
-            <ul id="nav-bar">
+            <ul class="nav-bar">
               <li class="nav-bar-link"><a href="index.html">HOME</a></li>
               <li class="nav-bar-link"><a href="about.html">ABOUT US</a></li>
-              <li class="nav-bar-link">SERVICES</li>
-              <li class="nav-bar-link">SECTORS</li>
+              <li class="nav-bar-link dropdown-service-list-item">
+                  <section class="dropdown-service">SERVICES</section>
+                  <ul class="dropdown-services-content">
+                      <li class="services-links"><h4 class="navigation-link-content">STATIC SECURITY</h4></li>
+                      <li class="services-links"><h4 class="navigation-link-content">MOBILE PATROLLING</h4></li>
+                      <li class="services-links"><h4 class="navigation-link-content">CCTV MONITORING</h4></li>
+                      <li class="services-links"><h4 class="navigation-link-content">LOCK & UNLOCK</h4></li>
+                      <li class="services-links"><h4 class="navigation-link-content">VACANT UNIT CHECKS</h4></li>
+                      <li class="services-links"><h4 class="navigation-link-content">TECHNOLOGY PRODUCT</h4></li>
+                      <li class="services-links"><h4 class="navigation-link-content">MANNED GUARDING</h4></li>
+                      <li class="services-links"><h4 class="navigation-link-content">SUPPORT & MANAGEMENT</h4></li>
+                      <li class="services-links last-service-link"><h4 class="navigation-link-content">EVENT SECURITY</h4></li>
+                  </ul>
+              </li>
+              <li class="nav-bar-link dropdown-sectors-list-item">
+                  <section class="dropdown-sectors">SECTORS</section>
+                  <ul class="dropdown-sectors-content">
+                      <li class="sectors-link"><h4 class="navigation-link-content">CONSTRUCTION</h4></li>
+                      <li class="sectors-link"><h4 class="navigation-link-content">CORPORATE</h4></li>
+                      <li class="sectors-link"><h4 class="navigation-link-content">INDUSTRIAL</h4></li>
+                      <li class="sectors-link"><h4 class="navigation-link-content">RETAIL</h4></li>
+                      <li class="sectors-link"><h4 class="navigation-link-content">LOGISTICS</h4></li>
+                      <li class="sectors-link last-sector-link"><h4 class="navigation-link-content">PROPERTY MANAGEMENT</h4></li>
+                  </ul>
+              </li>
               <li class="nav-bar-link"><a href="contact-us.html">CONTACT US</a></li>
             </ul>
             <section class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-          </section>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </section>
           </nav>
         </div>
       </div>
@@ -80,7 +108,7 @@
       <div class="container-main">
         <div class="vision-wrapper">
           <div class="content-left-vision">
-            <img src="img/manned.jpg" alt="">
+            <img src="images/manned.jpg" alt="">
 
           </div>
           <div class="content-right">
@@ -125,7 +153,7 @@
             </p>
           </div>
           <div id="center-section-f">
-            <img src="img/guard-for-services-sec.png" id="feature-img" />
+            <img src="images/guard-for-services-sec.png" id="feature-img" />
           </div>
           <div id="right-section-f">
             <h2>04. Manned Guarding</h2>
@@ -164,7 +192,6 @@
           <div id="bg2" class="container container-no-padding">
             <div id="overlay-color" class="container">
               <div id="section3-wrapper">
-                <h2>Privacy Policy</h2>
                 <h1>Our Privacy Policy</h1>
                 <p>
                   We always provide tested & proven Security security system to our customers. Our best offer give for
@@ -189,7 +216,7 @@
         </p>
         <div id="speakers-list" class="container">
           <div class="speakers">
-            <img src="img/guard1.jpg" class="speaker-image" />
+            <img src="images/guard1.jpg" class="speaker-image" />
             <h2>John Richards</h2>
             <h4>Engineer</h4>
             <div class="speaker-contact">
@@ -198,7 +225,7 @@
             </div>
           </div>
           <div class="speakers">
-            <img src="img/guard2.jpg" class="speaker-image" />
+            <img src="images/guard2.jpg" class="speaker-image" />
             <h2>Kelley Miles</h2>
             <h4>Biochemist</h4>
             <div class="speaker-contact">
@@ -207,7 +234,7 @@
             </div>
           </div>
           <div class="speakers">
-            <img src="img/guard3.jpg" class="speaker-image" />
+            <img src="images/guard3.jpg" class="speaker-image" />
             <h2>Sherman Warner</h2>
             <h4>Geologist</h4>
             <div class="speaker-contact">
@@ -216,7 +243,7 @@
             </div>
           </div>
           <div class="speakers">
-            <img src="img/guard4.jpg" class="speaker-image" />
+            <img src="images/guard4.jpg" class="speaker-image" />
             <h2>Denis Green</h2>
             <h4>Technologist-specialist</h4>
             <div class="speaker-contact">
@@ -239,24 +266,24 @@
       <div id="data-section">
         <div id="num-objects" class="data-container">
           <!-- <h1>450</h1> -->
-          <img src="img/client1.png" alt="">
+          <img src="images/client1.png" alt="">
           <!-- <h3>Objects protected</h3> -->
         </div>
         <div id="years-experience" class="data-container">
           <!-- <h1>16</h1> -->
-          <img src="img/client2.png" alt="">
+          <img src="images/client2.png" alt="">
 
           <!-- <h3>Years of experience</h3> -->
         </div>
         <div id="num-professionals" class="data-container">
           <!-- <h1>35</h1> -->
-          <img src="img/client3.png" alt="">
+          <img src="images/client3.png" alt="">
 
           <!-- <h3>Professionals</h3> -->
         </div>
         <div id="num-cameras" class="data-container">
           <!-- <h1>1200+</h1> -->
-          <img src="img/client4.png" alt="">
+          <img src="images/client4.png" alt="">
 
           <!-- <h3>Cameras installed</h3> -->
         </div>
@@ -374,7 +401,7 @@
           <div class="accre-card">
             <a href="#">
               <div class="card-contain">
-                <img src="img/accrediation1.jpg" alt="">
+                <img src="images/client01.png" alt="">
                 <h3>
                   Lorem ipsum.
                 </h3>
@@ -385,7 +412,7 @@
           <div class="accre-card">
             <a href="#">
               <div class="card-contain">
-                <img src="img/accrediation2.jpg" alt="">
+                <img src="images/client02.png" alt="">
                 <h3>
                   Lorem ipsum.
                 </h3>
@@ -396,7 +423,7 @@
           <div class="accre-card">
             <a href="#">
               <div class="card-contain">
-                <img src="img/accrediation3.jpg" alt="">
+                <img src="images/client03.png" alt="">
                 <h3>
                   Lorem ipsum.
                 </h3>
@@ -407,29 +434,7 @@
           <div class="accre-card">
             <a href="#">
               <div class="card-contain">
-                <img src="img/accrediation4.jpg" alt="">
-                <h3>
-                  Lorem ipsum.
-                </h3>
-              </div>
-            </a>
-          </div>
-
-          <div class="accre-card">
-            <a href="#">
-              <div class="card-contain">
-                <img src="img/accrediation5.jpg" alt="">
-                <h3>
-                  Lorem ipsum.
-                </h3>
-              </div>
-            </a>
-          </div>
-
-          <div class="accre-card">
-            <a href="#">
-              <div class="card-contain">
-                <img src="img/accrediation6.jpg" alt="">
+                <img src="images/client04.png" alt="">
                 <h3>
                   Lorem ipsum.
                 </h3>
@@ -442,7 +447,7 @@
 
     <div id="subscribe-section" class="container">
       <div id="subscribe-wrapper">
-        <img src="img/rsswifi.png" />
+        <img src="images/rsswifi.png" />
         <div id="right-container">
           <div id="offer">
             <h3>Want to know about our offers frst?</h3>
@@ -483,7 +488,7 @@
       </div> -->
     </footer>
     <script src="https://kit.fontawesome.com/6fcb08b902.js" crossorigin="anonymous"></script>
-    <script src="nav-menu.js"></script>
+    <script src="assets/js/nav-menu.js"></script>
   </main>
 </body>
 
