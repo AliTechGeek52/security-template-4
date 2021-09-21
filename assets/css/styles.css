@@ -101,7 +101,7 @@ header {
 /*main navigation section*/
 #main-navigation {
   box-sizing: border-box;
-  background-image: url("gPeonv.jpg");
+  background-image: url("images/gPeonv.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
