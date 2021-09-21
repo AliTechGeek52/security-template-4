@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/home.css"/>
+    <link rel="stylesheet" type="text/css" href="home.css"/>
     <title>Security-Home</title>
 </head>
 <body>
@@ -32,22 +31,15 @@
                 </li>
             </ul>
             <ul id="header-login">
-                <!-- <li class="login-links">
-                      <div>
-                        <i class="far fa-user-circle"></i>
-                      </div>
-                      <div>Login</div>
-                    </li> -->
                 <li class="login-links">
                     <div>
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                     <div id="cart-items">0</div>
                 </li>
-                <li class="login-links">
-                    <div>
-                        <i class="fas fa-search"></i>
-                    </div>
+                <li class="login-links" id="search-bar-wrap">
+                    <i class="fas fa-search"></i>
+                    <input type="text" name="search-bar" placeholder="Search" class="search-bar-header">
                 </li>
             </ul>
             </section>
@@ -60,8 +52,31 @@
                         <ul id="nav-bar">
                             <li class="nav-bar-link"><a href="index.html">HOME</a></li>
                             <li class="nav-bar-link"><a href="about.html">ABOUT US</a></li>
-                            <li class="nav-bar-link">SERVICES</li>
-                            <li class="nav-bar-link">SECTORS</li>
+                            <li class="nav-bar-link dropdown-service-list-item">
+                                <section class="dropdown-service">SERVICES</section>
+                                <ul class="dropdown-services-content">
+                                    <li class="services-links">STATIC SECURITY</li>
+                                    <li class="services-links">MOBILE PATROLLING</li>
+                                    <li class="services-links">CCTV MONITORING</li>
+                                    <li class="services-links">LOCK & UNLOCK</li>
+                                    <li class="services-links">VACANT UNIT CHECKS</li>
+                                    <li class="services-links">TECHNOLOGY PRODUCT</li>
+                                    <li class="services-links">MANNED GUARDING</li>
+                                    <li class="services-links">SUPPORT & MANAGEMENT</li>
+                                    <li class="services-links last-service-link">EVENT SECURITY</li>
+                                </ul>
+                            </li>
+                            <li class="nav-bar-link dropdown-sectors-list-item">
+                                <section class="dropdown-sectors">SECTORS</section>
+                                <ul class="dropdown-sectors-content">
+                                    <li class="sectors-link">CONSTRUCTION</li>
+                                    <li class="sectors-link">CORPORATE</li>
+                                    <li class="sectors-link">INDUSTRIAL</li>
+                                    <li class="sectors-link">RETAIL</li>
+                                    <li class="sectors-link">LOGISTICS</li>
+                                    <li class="sectors-link last-sector-link">PROPERTY MANAGEMENT</li>
+                                </ul>
+                            </li>
                             <li class="nav-bar-link"><a href="contact-us.html">CONTACT US</a></li>
                         </ul>
                         <section class="hamburger">
@@ -87,11 +102,11 @@
     <div class="container-2">
        
     <div class="box1">
-        <img class="about-img" src="img/about-photo.png">
+        <img class="about-img" src="img/news3.jpg">
     </div>
     <div class="box1">
 
-<header>
+<section>
     <article>
         <h1 class="heading-main-about">About us</h1>
         <h3 class="heading-main-abt">CCTV for your Safety</h3>
@@ -101,7 +116,7 @@
         <button class="about-btn">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></button>
     </div>
     </article>
-    </header>
+</section>
 
     </div>
 </div>
@@ -319,13 +334,13 @@
     </div>
 </section>
 <!-------------------------------------------------------Testimonals----------------------------------->
-<!--         <div class="container-6">
+        <div class="container-6">
             <div class="content">
                <h4> TESTIMONIALS   </h4>
                <h2>What our client says </h2>
-            </div> -->
+            </div>
             <!-- ----slider---- -->
-           <!-- <div class="curesol">
+            <div class="curesol">
                <div class="slider">
                   <div class="slide">
                      <img src="images/speaker_03-150x150.jpg" alt="slider-images">
@@ -352,7 +367,7 @@
                </div>
             </div>
          </div>
-         </div> -->
+         </div>
 <section class="section-latest-news">
     <div class="headings-price-wrap">
     <h3 class="sub-head-blog-main">WHATS NEW</h3>
@@ -410,7 +425,7 @@
                     <div class="accre-card">
                         <a href="#">
                             <div class="card-contain">
-                                <img src="img/accrediation1.jpg" alt="">
+                                <img src="img/client2.png" alt="">
                                 <h3>
                                     Lorem ipsum dolor sit amet consectetur.
                                 </h3>
@@ -421,7 +436,7 @@
                     <div class="accre-card">
                         <a href="#">
                             <div class="card-contain">
-                                <img src="img/accrediation2.jpg" alt="">
+                                <img src="img/client1.png" alt="">
                                 <h3>
                                     Lorem ipsum dolor sit amet consectetur.
                                 </h3>
@@ -432,7 +447,7 @@
                     <div class="accre-card">
                         <a href="#">
                             <div class="card-contain">
-                                <img src="img/accrediation3.jpg" alt="">
+                                <img src="img/client3.png" alt="">
                                 <h3>
                                     Lorem ipsum dolor sit amet consectetur.
                                 </h3>
@@ -443,29 +458,7 @@
                     <div class="accre-card">
                         <a href="#">
                             <div class="card-contain">
-                                <img src="img/accrediation4.jpg" alt="">
-                                <h3>
-                                    Lorem ipsum dolor sit amet consectetur.
-                                </h3>
-                            </div>
-                        </a>
-                    </div>
-        
-                    <div class="accre-card">
-                        <a href="#">
-                            <div class="card-contain">
-                                <img src="img/accrediation5.jpg" alt="">
-                                <h3>
-                                    Lorem ipsum dolor sit amet consectetur.
-                                </h3>
-                            </div>
-                        </a>
-                    </div>
-        
-                    <div class="accre-card">
-                        <a href="#">
-                            <div class="card-contain">
-                                <img src="img/accrediation6.jpg" alt="">
+                                <img src="img/client4.png" alt="">
                                 <h3>
                                     Lorem ipsum dolor sit amet consectetur.
                                 </h3>
@@ -519,6 +512,6 @@
         </footer>
     </main>
     <script src="https://kit.fontawesome.com/6fcb08b902.js" crossorigin="anonymous"></script>
-    <script src="assets/js/nav-menu.js"></script>
+    <script src="nav-menu.js"></script>
 </body>
 </html>
